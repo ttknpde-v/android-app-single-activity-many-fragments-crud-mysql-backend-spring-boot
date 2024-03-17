@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    just remember!! when you worked with recycle view ()
+    focus two tag
+    android:layout_width="match_parent"
+    *** android:layout_height="wrap_content"
+    this bug I found when I try to retrieve all item
+    but it returns one.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+        <TableRow
+                android:id="@+id/tableRowGadget"
+                android:background="@drawable/row"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:clickable="true"
+                    android:id="@+id/textViewGadgetId"
+                    android:layout_width="0dp"
+                    android:paddingLeft="5dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    />
+
+            <TextView
+                    android:paddingLeft="5dp"
+                    android:clickable="true"
+                    android:id="@+id/textViewGadgetBrand"
+                    android:layout_width="0dp"
+                    android:layout_column="1"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    />
+
+            <TextView
+                    android:paddingLeft="5dp"
+                    android:clickable="true"
+                    android:id="@+id/textViewGadgetModel"
+                    android:layout_width="0dp"
+                    android:layout_column="2"
+                    android:maxLines="1"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    />
+            <TextView
+                    android:paddingLeft="5dp"
+                    android:id="@+id/textViewGadgetPrice"
+                    android:layout_width="0dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:baselineAligned="false"
+                    />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

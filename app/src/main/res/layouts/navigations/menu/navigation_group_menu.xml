@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/groupGet">
+        <item
+                android:id="@+id/itemGetMethod"
+                android:title="GET METHOD">
+            <menu>
+                <item
+                        android:id="@+id/itemRead"
+                        android:icon="@mipmap/press"
+                        android:title="Read"/>
+                <item
+                        android:id="@+id/itemReads"
+                        android:icon="@mipmap/press"
+                        android:title="Reads"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/groupPost">
+        <item
+                android:id="@+id/itemPostMethod"
+                android:title="POST METHOD">
+            <menu>
+                <item
+                        android:id="@+id/itemCreate"
+                        android:icon="@mipmap/press"
+                        android:title="Create"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/groupPut">
+        <item
+                android:id="@+id/itemPutMethod"
+                android:title="PUT METHOD">
+            <menu>
+                <item
+                        android:id="@+id/itemUpdate"
+                        android:icon="@mipmap/press"
+                        android:title="Update"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/groupDelete">
+        <item
+                android:id="@+id/itemDeleteMethod"
+                android:title="DELETE METHOD">
+            <menu>
+                <item
+                        android:id="@+id/itemDelete"
+                        android:icon="@mipmap/press"
+                        android:title="Delete"/>
+            </menu>
+        </item>
+    </group>
+
+    <item
+            android:id="@+id/itemReload"
+            android:icon="@mipmap/press"
+            android:title="Reset" />
+</menu>

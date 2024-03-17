@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <!-- for err  com.android.volley.NoConnectionError: java.io.IOException: Cleartext HTTP traffic to 172.18.208.1 not permitted -->
+        <!-- Enable Http between app and server
+            The cleartextTrafficPermitted flag is one of the options in Android’s Network Security Configuration file.
+            The online documentation (https://developer.android.com/training/articles/security-config) explains that from Android 9 (API level 28) and higher,
+            it will be set by default to false and it is intended to prevent insecure communication attempts using clear-text HTTP originating from Android applications -->
+    </base-config>
+</network-security-config>

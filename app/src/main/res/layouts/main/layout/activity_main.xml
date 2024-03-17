@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/constraintMain"
+        android:layout_height="match_parent">
+    <androidx.drawerlayout.widget.DrawerLayout
+            android:layout_width="match_parent"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:ignore="HardcodedText"
+            android:id="@+id/drawerLayout"
+            android:layout_height="match_parent">
+        <!--
+            คลาสนี้ เป็น RootView คล้ายๆกับทุกๆ layout ที่ต้องมี LinearLayout, RelativeLayout ได้มา
+            any contents should be here space
+        -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTitle"
+                android:textSize="50dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="bottom|center"/>
+
+        <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <!--
+                any fragments work in here
+            -->
+        </androidx.fragment.app.FragmentContainerView>
+
+
+        <com.google.android.material.navigation.NavigationView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/navigationView"
+                android:layout_gravity="start"
+                app:menu="@menu/navigation_group_menu">
+            <!--
+                this the navigation view which draws and shows the navigation drawer
+                include the menu created in the menu folder
+                default if you need to open Just slide tap left to right
+            -->
+        </com.google.android.material.navigation.NavigationView>
+
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
