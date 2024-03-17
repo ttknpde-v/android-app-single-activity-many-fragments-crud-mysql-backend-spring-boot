@@ -8,13 +8,11 @@ Developed by [ttknpde-v](https://github.com/ttknpde-v)
 
 ![Model](https://github.com/ttknpde-v/android-app-single-activity-many-fragments-crud-mysql-backend-spring-boot/blob/ttknpde-v/ui/2.jpg)
 
-![Model](https://github.com/ttknpde-v/android-app-single-activity-many-fragments-crud-mysql-backend-spring-boot/blob/ttknpde-v/ui/3.jpg)
+![Model](https://github.com/ttknpde-v/android-app-single-activity-many-fragments-crud-mysql-backend-spring-boot/blob/ttknpde-v/ui/3_n.jpg)
 
 ![Model](https://github.com/ttknpde-v/android-app-single-activity-many-fragments-crud-mysql-backend-spring-boot/blob/ttknpde-v/ui/4.jpg)
 
 ![Model](https://github.com/ttknpde-v/android-app-single-activity-many-fragments-crud-mysql-backend-spring-boot/blob/ttknpde-v/ui/5.jpg)
-
-![Model](https://github.com/ttknpde-v/android-app-single-activity-many-fragments-crud-mysql-backend-spring-boot/blob/ttknpde-v/ui/6.jpg)
 
 ![Model](https://github.com/ttknpde-v/android-app-single-activity-many-fragments-crud-mysql-backend-spring-boot/blob/ttknpde-v/ui/7.jpg)
 
