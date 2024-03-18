@@ -28,3 +28,4 @@ Developed by [ttknpde-v](https://github.com/ttknpde-v)
 
 # My Description
 
+this project i understand more and more about volley library For example the way to pass params on url or pass json object on http body that's very good to work with any api. i have known how to use navigation drawers in android studio and i use it for my frangments (Apply the last android project). In backend i still use spring boot building api but this case I use kotlin because kotlin can work enoght when code (Project) it is not complicated.
